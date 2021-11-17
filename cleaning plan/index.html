@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Putzplan</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <nav><h1>Die Putz-Ampel</h1></nav>
+    <section>   
+    <div class="flex-container">
+      <div class="box">
+        <h2>&#128580;</h2>
+        <div id="rot" class="box"> </div>
+      </div>
+      <div class="box">
+        <h2>&#128528;</h2>
+        <div id="gelb" class="box"> </div> 
+      </div>
+      <div class="box">
+        <h2>&#129321;</h2>
+        <div id="gruen" class="box">
+        </div>
+      </div>
+    </div>
+    </section>
+
+<footer class = "eingabeformular">
+   <div class="flex-container">
+      <form id="new_task_form" action="#">
+        <h2>Füge einen neuen Task hinzu:</h2>
+        <form action="#">
+          <input type="text" value="...z.B. Fenster" onfocus=" this.value=''" id="new_task">
+          <button type="submit" form = "new_task_form" onclick="neuer_task_zu_liste();">Task hinzufügen</button>
+        </form> 
+      </footer>
+   
+        
+    </div>
+  </body>
+  <script src="src/js/main.js" defer></script>
+</html>

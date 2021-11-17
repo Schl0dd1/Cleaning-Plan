@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yuji+Syuku&display=swap');/* */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yuji+Syuku&display=swap');
+
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+
+nav {   
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #314355;
+    line-height: 3rem;  
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 3.0rem;
+    line-height: 3.0rem;
+    letter-spacing: 1rem;
+}
+h2 {
+    letter-spacing: .1rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: .1rem;
+    margin: 0.8rem;
+}
+   
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+   /* border: solid black;*/
+    min-height: 00px;
+
+}
+
+.box {
+    width: 29%;
+    min-width: 380px;
+    border-radius: 7%;
+    
+
+   
+}
+#rot:empty,#gelb:empty,#gruen:empty {
+    background-color: white;
+    
+}
+
+#rot,#gelb,#gruen {
+    padding: 0.5rem;
+    align-items: center;
+
+}
+
+#rot {
+    background-color: #ef476f;
+}
+
+#gelb {
+    background-color: #fcc951;
+}
+
+#gruen {
+    background-color: #06d6a0;
+}
+
+.eintraege {
+    /*border:solid black;*/
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ee787c;
+    border-radius: 7px;
+}
+
+button {
+    padding: 0.4rem;
+    text-align: right;
+    font-family: 'Bebas Neue', cursive;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    margin-left: 0.5rem;
+    
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: .1rem;
+  
+    
+}
+  
+button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+
+#label {
+    margin-right: 1rem;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: .1rem;
+}
+
+input{
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    align-items: center;
+}
+
+input[type='radio']:checked {
+    color: black;
+}
+
+.eingabeformular {
+    background-color: rgb(130, 161, 189);
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+@media (max-width: 1200px) {
+    .flex-container {
+        display: inline-table;
+    }
+
+    .box {
+        min-width: none;
+        min-height: 3rem;
+        margin-bottom: 1rem;
+    }
+  }
