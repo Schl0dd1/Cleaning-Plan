@@ -38,10 +38,12 @@ h2 {
     margin: 1rem;
    /* border: solid black;*/
     min-height: 00px;
+    
 
 }
 
 .box {
+    
     width: 29%;
     min-width: 380px;
     border-radius: 7%;
@@ -85,15 +87,17 @@ h2 {
 button {
     padding: 0.4rem;
     text-align: right;
+    align-items: center;
     font-family: 'Bebas Neue', cursive;
     background-color: white;
     border: none;
     border-radius: 2px;
     margin-left: 0.5rem;
+    border-radius: 3px;
     
     font-weight: 300;
     font-size: 1.5rem;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
     letter-spacing: .1rem;
   
     
@@ -114,9 +118,17 @@ button:hover {
 input{
     font-weight: 300;
     font-size: 1.5rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
     align-items: center;
 }
+
+#auswahl {
+    font-weight: 200;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+
 
 input[type='radio']:checked {
     color: black;
@@ -128,15 +140,29 @@ input[type='radio']:checked {
     padding-bottom: 3rem;
 }
 
+.fehler {
+    margin:auto;
+    text-align: center;
+    border: solid;
+    background-color: white;
+    border-color: red;
+    width: 50%;
+}
+
 
 @media (max-width: 1200px) {
     .flex-container {
         display: inline-table;
+       align-items: center;
     }
 
     .box {
         min-width: none;
-        min-height: 3rem;
-        margin-bottom: 1rem;
+        min-height: 3rem;  
+    }
+
+    #button_form {
+        margin-top: 0.5rem;
+        margin-left: 0;
     }
   }
