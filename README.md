@@ -2,7 +2,7 @@
 my second completely diy js mini-project, still working on it.
 
 next tasks:</br>
-error-handling</br>
+fix css-bugs </br>
 add a "delete"-button</br>
-convert list into a json-file
+transfer data to database
 
